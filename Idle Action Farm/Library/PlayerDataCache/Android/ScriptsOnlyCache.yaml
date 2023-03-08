@@ -17,8 +17,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -74,37 +76,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1740}
+      Script: {instanceID: 1742}
     - Class: 114
-      Script: {instanceID: 1772}
+      Script: {instanceID: 1896}
     - Class: 114
-      Script: {instanceID: 2106}
+      Script: {instanceID: 2230}
     - Class: 114
-      Script: {instanceID: 2130}
+      Script: {instanceID: 2254}
     - Class: 114
-      Script: {instanceID: 2506}
+      Script: {instanceID: 2630}
     - Class: 114
-      Script: {instanceID: 2518}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 2820}
+      Script: {instanceID: 2944}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 3028}
     - Class: 114
-      Script: {instanceID: 3058}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 3282}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 3392}
+      Script: {instanceID: 3516}
     - Class: 114
-      Script: {instanceID: 3528}
+      Script: {instanceID: 3652}
     - Class: 114
-      Script: {instanceID: 4974}
+      Script: {instanceID: 5098}
     - Class: 114
-      Script: {instanceID: 5320}
+      Script: {instanceID: 5444}
     - Class: 114
-      Script: {instanceID: 5354}
+      Script: {instanceID: 5478}
     - Class: 114
-      Script: {instanceID: 5538}
+      Script: {instanceID: 5662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -250,7 +252,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 651781f6d20e5f9a95a0c290ce3c2b44
+      Hash: cbce7df124f93ffb78ce10325e170d5e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GardenController
@@ -959,4 +961,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Idle-Action-Farm-main/Farm_by_AK.apk
+  playerPath: D:/bild/TestbyAK.apk

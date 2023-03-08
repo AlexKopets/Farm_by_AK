@@ -7,7 +7,7 @@ public class GardenController : MonoBehaviour
 {
     private Animator gardenAnim;
     public GameObject crop;
-    private float stopTime = 0;
+    public float stopTime = 0;
    
     void Start()
     {

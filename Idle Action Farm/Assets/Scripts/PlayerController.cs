@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private float horizontal, vertical;
     private Rigidbody _rigidbody;
     private Animator playerAnimations;
+    private GardenController myClassStopTime = new GardenController();
 
     private void Start() {
         _rigidbody = GetComponent<Rigidbody>();
@@ -39,17 +40,17 @@ public class PlayerController : MonoBehaviour
     {
         if (joystick.Horizontal != 0 && joystick.Vertical != 0)
         {
-            if (other.CompareTag("Garden"))
+            if (other.CompareTag("Garden") && myClassStopTime.stopTime<=0)
             {
                 playerAnimations.SetTrigger("Mow");
             }
         }
         else
         {
-            if (other.CompareTag("Garden"))
-            {
-                playerAnimations.SetTrigger("Mow");
-            }
+            //if (other.CompareTag("Garden"))
+            //{
+            //    playerAnimations.SetTrigger("Mow");
+            //}
         }
     }
 }

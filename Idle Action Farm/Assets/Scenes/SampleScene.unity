@@ -1221,6 +1221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crop: {fileID: 5585073174910946802, guid: 9e7ab3f80c2a8a4258e10cdc147f0558, type: 3}
+  stopTime: 0
 --- !u!1 &947663247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,6 +1838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crop: {fileID: 5585073174910946802, guid: 9e7ab3f80c2a8a4258e10cdc147f0558, type: 3}
+  stopTime: 0
 --- !u!95 &1394839210
 Animator:
   serializedVersion: 3
@@ -2659,6 +2661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crop: {fileID: 5585073174910946802, guid: 9e7ab3f80c2a8a4258e10cdc147f0558, type: 3}
+  stopTime: 0
 --- !u!95 &2027483444
 Animator:
   serializedVersion: 3
@@ -2792,6 +2795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crop: {fileID: 5585073174910946802, guid: 9e7ab3f80c2a8a4258e10cdc147f0558, type: 3}
+  stopTime: 0
 --- !u!95 &2054392010
 Animator:
   serializedVersion: 3

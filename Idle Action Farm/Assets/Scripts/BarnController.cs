@@ -24,10 +24,11 @@ public class BarnController : MonoBehaviour
         gameObjects = GameObject.FindGameObjectsWithTag("Crop");
         if (other.CompareTag("Bag"))
         {
-            Bag.crop_quantity--;
-            point = point + 15;
+            
+            point = point + (15*Bag.crop_quantity);
             pointText.text = point+"";
-            if(Bag.crop_quantity == 0)
+            Bag.crop_quantity=0;
+            if (Bag.crop_quantity == 0)
             {
                 for (int i = 0; i < gameObjects.Length; ++i)
                 {
